@@ -1,3 +1,11 @@
+@import "./../../node_modules/bootstrap/scss/functions";
+@import "./../../node_modules/bootstrap/scss/variables";
+@import "./../../node_modules/bootstrap/scss/mixins";
+@import "./../../node_modules/bootstrap/scss/carousel";
+// don't add .css extension
+// because sass compiler treat them as absolute files
+@import "./../../node_modules/animate.css/animate.min";
+
 body {
   background: teal;
   width: 45%;
