@@ -1,0 +1,76 @@
+section.slider-section {
+    background-image: linear-gradient(
+    to right bottom, 
+    rgba(124, 13, 190, 0.8), 
+    rgba(124, 13, 190, 0.6)), 
+    url(../images/brandingpond-1-large.jpg);
+    background-repeat: no-repeat;
+    background-repeat: none repeat scroll 0 0;
+    background-size: cover;
+    color: #fff;
+    height: 100%;
+}
+
+section.slider-section:hover {
+    background-image: linear-gradient(
+    to right bottom, 
+    rgba(124, 13, 190, 0.8), 
+    rgba(124, 13, 190, 0.6)), 
+    url(../images/technology-1-large.jpg);
+    background-repeat: no-repeat;
+    background-repeat: none repeat scroll 0 0;
+    background-size: cover;
+    color: #fff;
+    height: 100%;
+}
+
+
+.single-slide h1 {
+    font-size: 57px;
+    margin: 0 0 35px;
+    text-transform: uppercase;
+}
+.single-slide {
+  display: table-cell;
+  height: 100vh;
+  text-align: center;
+  vertical-align: middle;
+  width: 100vw;
+}
+.owl-section {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.single-slide p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+a.boxed-btn {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #222;
+    display: inline-block;
+    padding: 15px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a.boxed-btn:hover {
+    opacity: 0.8;
+}
+
+.owl-dots div {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 100%;
+    height: 15px;
+    margin: 11px 0;
+    width: 15px;
+}
+.owl-dots {
+    position: absolute;
+    right: 30px;
+    top: 43%;
+}
+.owl-dots div.active {
+  background: #222 none repeat scroll 0 0;
+}

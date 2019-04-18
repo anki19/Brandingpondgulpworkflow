@@ -1,13 +1,25 @@
+@import "./../../node_modules/bootstrap/scss/grid";
 @import "./../../node_modules/bootstrap/scss/functions";
 @import "./../../node_modules/bootstrap/scss/variables";
 @import "./../../node_modules/bootstrap/scss/mixins";
 @import "./../../node_modules/bootstrap/scss/carousel";
+
 // don't add .css extension
 // because sass compiler treat them as absolute files
+@import "./../../node_modules/owl.carousel/dist/assets/owl.carousel";
 @import "./../../node_modules/animate.css/animate.min";
+@import "./../../node_modules/splitting/dist/splitting-cells.css";
 
-body {
-  background: teal;
-  width: 45%;
-  margin: 2em;
-}
+@import "abstracts/variables";
+
+@import "base/base";
+@import "base/typography";
+
+@import "components/button";
+@import "components/carousel";
+@import "components/composition";
+@import "components/jquery.rotatingSlideshow.scss";
+
+@import "layout/header";
+
+
