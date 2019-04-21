@@ -1,7 +1,9 @@
-@import "./../../node_modules/bootstrap/scss/grid";
+// required imports for bootstrap modules
 @import "./../../node_modules/bootstrap/scss/functions";
 @import "./../../node_modules/bootstrap/scss/variables";
 @import "./../../node_modules/bootstrap/scss/mixins";
+// bootstrap modules
+@import "./../../node_modules/bootstrap/scss/grid";
 @import "./../../node_modules/bootstrap/scss/carousel";
 
 // don't add .css extension
@@ -21,5 +23,3 @@
 @import "components/jquery.rotatingSlideshow.scss";
 
 @import "layout/header";
-
-
